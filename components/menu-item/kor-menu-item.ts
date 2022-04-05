@@ -19,7 +19,7 @@ export class korMenuItem extends LitElement {
   @property({ type: String, reflect: true }) label = 'Label';
   @property({ type: String, reflect: true }) icon: string | undefined;
   @property({ type: Boolean, reflect: true }) active: boolean | undefined;
-  @property({ type: Boolean, reflect: true }) toggle = true;
+  @property({ type: Boolean }) toggle = true;
   @property({ type: Boolean, reflect: true }) disabled: boolean | undefined;
 
   static get styles() {
